@@ -1,6 +1,11 @@
+arch: 
+  - amd64
+  - ppc64le
+  
 language: go
 
 go:
-  - 1.5
-  - 1.6
-  - tip
+  - "1.14.x"
+  - "1.15.x"
+  - "1.17.x"
+  - master
